@@ -3,8 +3,12 @@ class PortfoliosController < ApplicationController
         @portfolio_item = Portfolio.all
     end
     
+    def angular
+      @angular_portfolio_item = Portfolio.angular
+    end
+    
     def new
-        @portfolio_item = Portfolio.new
+        @portfolio_items = Portfolio.new
     end
     
     def create
@@ -47,5 +51,4 @@ class PortfoliosController < ApplicationController
       format.html { redirect_to portfolios_url, notice: 'Recored was Removed' }
       end
     end
-  
 end
