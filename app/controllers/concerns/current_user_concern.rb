@@ -3,7 +3,7 @@ module CurrentUserConcern
     
     def current_user
     super || guest_user
-  end
+    end
   
   def guest_user
       OpenStruct.new(name: "Jordan Hudgens", 
@@ -12,4 +12,4 @@ module CurrentUserConcern
                     email:"guest@example.com"
                     )
   end
- end
+end
