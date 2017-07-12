@@ -55,3 +55,5 @@ gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.3'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+
+gem 'harper_view_tool', git: 'https://github.com/ryan61/harper_view_tool'
