@@ -11,6 +11,6 @@ class ApplicationController < ActionController::Base
   
   before_action :set_copyright
   def set_copyright
-    @copyright = HarperViewTool::Renderer.copyright 'Ryab Harper', 'All rights reserved'
+    @copyright = HarperViewTool::Renderer.copyright 'Ryan Harper', 'All rights reserved'
   end
 end
