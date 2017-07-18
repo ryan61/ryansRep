@@ -18,6 +18,6 @@ module ApplicationHelper
     end
     
     def copyright_generator
-        HarperViewTool::Renderer.copyright 'Ryab Harper', 'All rights reserved'
+        HarperViewTool::Renderer.copyright 'Ryan Harper', 'All rights reserved'
     end
 end
