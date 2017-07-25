@@ -7,9 +7,10 @@ class PortfoliosController < ApplicationController
     end
     
     def sort
+      # pry.bind
       params[:order].each do |key, value|
         Portfolio.find(value[:id]).update(position: value[:position])
-    end
+      end
     
     render nothing: true
     end
