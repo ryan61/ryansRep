@@ -73,3 +73,5 @@ gem 'carrierwave', '~> 1.1'
 gem 'mini_magick', '~> 4.8'
 
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
+
+gem 'cocoon', '~> 1.2', '>= 1.2.10'
