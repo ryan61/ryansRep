@@ -5,5 +5,14 @@ class Blog < ApplicationRecord
     
     validates_presence_of :title, :body
     
-    #belongs_to :topic
+    belongs_to :topic
+    has_many :comments, dependent: :destroy
+    
+    def self.special blogs
+         all
+    end
+    
+    def self.featured_blogs
+         limit(2)
+    end
 end
