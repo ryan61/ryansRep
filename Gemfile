@@ -21,7 +21,7 @@ gem 'turbolinks', '~> 5'
 
 gem 'jbuilder', '~> 2.5'
 
-gem 'sprockets-rails', '2.3.3'
+gem 'sprockets-rails', '3.2.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
